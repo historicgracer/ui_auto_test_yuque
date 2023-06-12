@@ -1,2 +1,0 @@
-2023-06-11 15:15:18,175 INFO [root] [test_login.py (test_login:23] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：登录成功
-2023-06-11 15:16:58,463 INFO [root] [test_login.py (test_login:23] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：登录成功
