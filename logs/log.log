@@ -1,0 +1,3 @@
+2023-06-12 00:06:19,687 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
+2023-06-12 00:09:37,007 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
+2023-06-12 00:10:59,555 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
