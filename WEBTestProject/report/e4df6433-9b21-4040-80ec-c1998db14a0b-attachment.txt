@@ -1,1 +1,0 @@
-[32mINFO    [0m root:test_login.py:27 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
