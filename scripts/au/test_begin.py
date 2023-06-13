@@ -1,4 +1,4 @@
-# from WEBTestProject.utils import UtilsDriver
+# from utils import UtilsDriver
 # import pytest
 #
 # @pytest.mark.run(order=1)

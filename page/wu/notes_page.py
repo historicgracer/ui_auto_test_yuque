@@ -3,8 +3,8 @@ import time
 import autoit
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common.by import By
-from WEBTestProject.utils import UtilsDriver
-from WEBTestProject.base.wu.base import BasePage, BaseHandle
+from utils import UtilsDriver
+from base.wu.base import BasePage, BaseHandle
 
 
 class notesObj(BasePage):

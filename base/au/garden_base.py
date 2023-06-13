@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from WEBTestProject.base.au.base import BasePage, BaseHandle
+from base.au.base import BasePage, BaseHandle
 
 
 class gardenObj(BasePage):

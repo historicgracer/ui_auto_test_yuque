@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from WEBTestProject.base.au.base import BasePage,BaseHandle
+from base.au.base import BasePage,BaseHandle
 
 # 对象层
 class navObj(BasePage):

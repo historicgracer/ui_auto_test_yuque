@@ -4,9 +4,9 @@ import time
 import allure
 import pytest
 
-from WEBTestProject.page.wu.dashboard_page import dashboardService
-from WEBTestProject.page.wu.login_page import loginService
-from WEBTestProject.utils import UtilsDriver,get_test_data
+from page.wu.dashboard_page import dashboardService
+from page.wu.login_page import loginService
+from utils import UtilsDriver,get_test_data
 
 data = get_test_data("/data/wu/test_login.json")
 

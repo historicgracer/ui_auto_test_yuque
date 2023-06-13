@@ -3,10 +3,10 @@
 #
 # import pytest
 #
-# from WEBTestProject.base.au.nav_base import navService
-# from WEBTestProject.page.au.about_page import aboutService
-# from WEBTestProject.page.au.selfspace_page import selfspaceService
-# from WEBTestProject.utils import UtilsDriver
+# from base.au.nav_base import navService
+# from page.au.about_page import aboutService
+# from page.au.selfspace_page import selfspaceService
+# from utils import UtilsDriver
 #
 #
 # @pytest.mark.run(order=3)

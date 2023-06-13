@@ -1,7 +1,7 @@
 import allure
 from selenium.webdriver.common.by import By
 
-from WEBTestProject.base.wu.base import BasePage, BaseHandle
+from base.wu.base import BasePage, BaseHandle
 
 
 class loginObj(BasePage):

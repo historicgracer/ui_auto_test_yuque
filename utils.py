@@ -8,7 +8,7 @@ from datetime import datetime
 from appium import webdriver as au_driver
 from selenium import webdriver as wu_driver
 
-from WEBTestProject.config import BaseDir
+from config import BaseDir
 
 
 class UtilsDriver:
@@ -64,7 +64,7 @@ class UtilsDriver:
                 return func(*args, **kwargs)
             except Exception as e:
                 now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-                screenshot_name = f"WEBTestProject/image/{inspect.stack()[1][3]}_{now}.png"
+                screenshot_name = f"image/{inspect.stack()[1][3]}_{now}.png"
                 UtilsDriver.get_wu_driver().get_screenshot_as_file(screenshot_name)
                 # args[0].driver.get_screenshot_as_file(screenshot_name)
                 print("截图好了。。。。")

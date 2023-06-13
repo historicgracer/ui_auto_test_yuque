@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from WEBTestProject.base.au.garden_base import gardenObj, gardenHandle
+from base.au.garden_base import gardenObj, gardenHandle
 
 
 class selfgardenObj(gardenObj):

@@ -2,7 +2,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from WEBTestProject.base.wu.base import BasePage, BaseHandle
+from base.wu.base import BasePage, BaseHandle
 
 
 class dashboardObj(BasePage):

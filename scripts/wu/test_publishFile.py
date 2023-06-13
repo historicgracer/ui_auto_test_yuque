@@ -3,9 +3,9 @@
 #
 # import pytest
 #
-# from WEBTestProject.page.wu.dashboard_page import dashboardService
-# from WEBTestProject.page.wu.edit_file_page import editFileService
-# from WEBTestProject.utils import UtilsDriver
+# from page.wu.dashboard_page import dashboardService
+# from page.wu.edit_file_page import editFileService
+# from utils import UtilsDriver
 #
 #
 # @pytest.mark.run(order=1003)

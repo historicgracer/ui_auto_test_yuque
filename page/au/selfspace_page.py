@@ -1,4 +1,4 @@
-from WEBTestProject.base.au.base import BasePage,BaseHandle
+from base.au.base import BasePage,BaseHandle
 from selenium.webdriver.common.by import By
 
 class selfspaceObj(BasePage):

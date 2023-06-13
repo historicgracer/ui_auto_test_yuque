@@ -1,5 +1,5 @@
 
-from WEBTestProject.utils import UtilsDriver
+from utils import UtilsDriver
 from selenium.webdriver.support.wait import WebDriverWait
 
 class BasePage:

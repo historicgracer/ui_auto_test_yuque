@@ -3,14 +3,14 @@
 #
 # import pytest
 #
-# from WEBTestProject.base.au.nav_base import navService
-# from WEBTestProject.page.au.edit_img import editImgService
-# from WEBTestProject.page.au.edit_petname_page import editPetnameService
-# from WEBTestProject.page.au.edit_profile_page import editProfileService
-# from WEBTestProject.page.au.selfgarden_page import selfgardenService
-# from WEBTestProject.page.au.selfmsg_page import selfmsgService
-# from WEBTestProject.page.au.selfspace_page import selfspaceService
-# from WEBTestProject.utils import UtilsDriver
+# from base.au.nav_base import navService
+# from page.au.edit_img import editImgService
+# from page.au.edit_petname_page import editPetnameService
+# from page.au.edit_profile_page import editProfileService
+# from page.au.selfgarden_page import selfgardenService
+# from page.au.selfmsg_page import selfmsgService
+# from page.au.selfspace_page import selfspaceService
+# from utils import UtilsDriver
 #
 #
 # @pytest.mark.run(order=2)
