@@ -1,3 +1,6 @@
 report/*
+!report/.gitkeep
 image/*
+!image/.gitkeep
 logs/*
+!logs/.gitkeep
