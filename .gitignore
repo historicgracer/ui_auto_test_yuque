@@ -1,7 +1,10 @@
-#!report/
-#!image/
-#!logs/
-#report/*
-#image/*
-#logs/*
-#__pycache__/
+!report/
+!image/
+!logs/
+report/*
+image/*
+logs/*
+__pycache__/
+!report/.gitkeep
+!image/.gitkeep
+!logs/.gitkeep
