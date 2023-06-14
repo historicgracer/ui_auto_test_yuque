@@ -4,3 +4,4 @@
 report/*
 image/*
 logs/*
+__pycache__/
