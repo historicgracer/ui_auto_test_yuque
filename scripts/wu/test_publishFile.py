@@ -13,6 +13,7 @@ class TestModUser:
     def setup_class(self):
         self.dashboardService = dashboardService()
         self.editFileService = editFileService()
+        UtilsDriver.open_wu_window()
 
     def teardown_class(self):
         UtilsDriver.quit_wu_driver()
@@ -23,3 +24,5 @@ class TestModUser:
         time.sleep(3)
         self.editFileService.editFile()
         time.sleep(3)
+        UtilsDriver.close_window()
+        UtilsDriver.switch_to_window()

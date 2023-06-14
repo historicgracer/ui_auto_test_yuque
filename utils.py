@@ -14,6 +14,7 @@ from config import BaseDir
 class UtilsDriver:
     _au_driver = None
     _wu_driver = None
+    original_tab_handle = None
     _testdone = True #执行多个用例之前
 
     @classmethod
@@ -40,7 +41,7 @@ class UtilsDriver:
             cls._wu_driver.maximize_window()
             cls._wu_driver.get("https://www.yuque.com/login")
             # cls._wu_driver.get("https://www.yuque.com/login?goto=https%3A%2F%2Fwww.yuque.com%2Fdashboard")
-
+            cls.original_tab_handle = cls._wu_driver.current_window_handle
         # print('cls',cls._driver,id(cls._driver))
         return cls._wu_driver
 
@@ -71,6 +72,27 @@ class UtilsDriver:
                 raise e
 
         return wrapper
+
+    @classmethod
+    def open_wu_window(cls):
+        print("utils========",cls._wu_driver.current_window_handle)
+        cls._wu_driver.execute_script("window.open(arguments[0]);", cls._wu_driver.current_url)
+        # cls._wu_driver.execute_script("window.open();")
+
+    @classmethod
+    def switch_to_window(cls):
+        cls._wu_driver.switch_to.window(cls._wu_driver.window_handles[-1])
+        # current_handle= cls._wu_driver.current_window_handle
+        # handles = cls._wu_driver.window_handles
+        # for handle in handles:
+        #     if handle != current_handle:
+        #         cls._wu_driver.switch_to.window(handle)
+        #         break
+
+    @classmethod
+    def close_window(cls):
+        if len(cls._wu_driver.window_handles) > 1:
+            cls._wu_driver.close()
 
 def get_test_data(filename):
     filename = BaseDir + filename

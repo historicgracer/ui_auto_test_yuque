@@ -1,7 +1,9 @@
 import time
 
+import allure
 from selenium.webdriver.common.by import By
 
+import utils
 from base.wu.base import BasePage, BaseHandle
 
 
@@ -29,21 +31,25 @@ class dashboardHandle(BaseHandle):
     def __init__(self):
         self.dashboardObj = dashboardObj()
 
+    @allure.step(title="鼠标移动并悬停到下拉菜单")
     def moveToPopoverList(self):
         self.move_mouse(self.dashboardObj.find_popoverlist_trigger(),self.dashboardObj.driver)
 
+    @allure.step(title="鼠标移动并悬停到新建文档")
     def moveToPopover(self):
         self.move_mouse(self.dashboardObj.find_createfile(),self.dashboardObj.driver)
 
+    @allure.step(title="点击下拉菜单中的新建文档")
     def click_popover(self):
         self.dashboardObj.find_createfile().click()
 
+    @allure.step(title="点击默认知识库")
     def click_library(self):
         self.dashboardObj.find_library().click()
 
+    @allure.step(title="点击小记子导航")
     def click_notesbutton(self):
         self.dashboardObj.find_notesbutton().click()
-
 
 class dashboardService():
     def __init__(self):
@@ -58,5 +64,7 @@ class dashboardService():
         time.sleep(1)
         self.dashboardHandle.click_library()
 
+
     def intent_Notes(self):
+        time.sleep(1)
         self.dashboardHandle.click_notesbutton()

@@ -14,6 +14,10 @@ class TestPublishNotes:
     def setup_class(self):
         self.dashboardService = dashboardService()
         self.notesService = notesService()
+        # tt = UtilsDriver.get_wu_driver().current_window_handle
+        # print("TestPublishNotes====tt====",tt)
+
+        UtilsDriver.open_wu_window()
 
     def teardown_class(self):
         UtilsDriver.quit_wu_driver()
@@ -29,3 +33,6 @@ class TestPublishNotes:
         time.sleep(3)
         allure.attach(UtilsDriver.get_wu_driver().get_screenshot_as_png(),"小记截图", allure.attachment_type.PNG)
         assert expect == self.notesService.notesHandle.check_result()
+
+        UtilsDriver.close_window()
+        UtilsDriver.switch_to_window()
