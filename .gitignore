@@ -1,6 +1,6 @@
-report/*
+/report/*
 !report/.gitkeep
-image/*
+/image/*
 !image/.gitkeep
-logs/*
+/logs/*
 !logs/.gitkeep
