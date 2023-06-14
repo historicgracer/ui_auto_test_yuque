@@ -1,7 +1,7 @@
-!report/
-!image/
-!logs/
-report/*
-image/*
-logs/*
-__pycache__/
+#!report/
+#!image/
+#!logs/
+#report/*
+#image/*
+#logs/*
+#__pycache__/

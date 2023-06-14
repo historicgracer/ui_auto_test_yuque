@@ -1,6 +1,0 @@
-2023-06-14 10:20:06,330 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
-2023-06-14 10:21:26,434 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
-2023-06-14 10:28:25,031 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
-2023-06-14 10:49:43,769 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
-2023-06-14 10:51:07,403 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
-2023-06-14 10:53:12,815 INFO [root] [test_login.py (test_login:27] - 用例的数据如下：邮箱：786475725@qq.com，密码：ilyme77，顶期结果：chasonche
