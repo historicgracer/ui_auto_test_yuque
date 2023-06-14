@@ -2,6 +2,7 @@ import logging
 import os
 
 BaseDir = os.path.dirname(__file__)
+
 #
 # # 日志
 # def init_logging():
